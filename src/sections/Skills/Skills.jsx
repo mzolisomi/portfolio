@@ -5,26 +5,22 @@ export default function Skills() {
     { 
       name: "C#", 
       src: "/images/c-sharp.png", 
-      alt: "C#",
-      description: "I used this skill to create UniCentral-SA, a central applications digital web app where students apply to a variety of South African universities."
+      alt: "C#"
     },
     { 
       name: "JavaScript", 
       src: "/images/javascript.jpg", 
-      alt: "JavaScript",
-      description: "used for creating web applications"
+      alt: "JavaScript"
     },
     { 
       name: "MySQL", 
       src: "/images/MySql.png.png", 
-      alt: "MySQL",
-      description: "used SQL"
+      alt: "MySQL"
     },
     { 
       name: "Python", 
       src: "/images/python.png", 
-      alt: "Python",
-      description: "used for Data Analysis"
+      alt: "Python"
     }
   ];
 
@@ -42,7 +38,7 @@ export default function Skills() {
           <p className="text-gray-400 mt-6 text-lg md:text-xl">Technologies and tools I work with</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 lg:gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8 lg:gap-10 mb-12">
           {skills.map((skill, index) => (
             <div
               key={index}
@@ -62,9 +58,6 @@ export default function Skills() {
               <h3 className="text-base md:text-lg font-bold text-gray-300 group-hover:text-green-400 transition-colors duration-300 text-center">
                 {skill.name}
               </h3>
-              <p>
-                {skill.description}
-              </p>
               
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-green-400 to-green-600 group-hover:w-16 transition-all duration-500 rounded-full"></div>
             </div>
