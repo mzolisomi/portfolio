@@ -17,17 +17,21 @@ function About() {
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6 text-base md:text-lg text-gray-300 leading-relaxed bg-gray-900/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-800/50 shadow-xl">
             <p className="text-gray-300/90">
-              Hello! I'm <span className="text-green-400 font-semibold">Mzoli Somi</span>, a dedicated student and aspiring web developer currently pursuing 
-              my Bachelor of Commerce in Information Systems at the University of Fort Hare.
+              Hello! I'm <span className="text-green-400 font-semibold">Mzoli Somi</span>, 
+              a BCom Information Systems graduand at the University of Fort Hare and a 
+              Data Analytics graduate from EBL Institute, with a growing focus on web development.
             </p>
+
             <p className="text-gray-300/90">
-              My passion lies in creating innovative web solutions that combine functionality with 
-              beautiful design. I'm constantly learning and exploring new technologies to enhance 
-              my skills and stay updated with industry trends.
+              I am currently strengthening my skills in modern web technologies while building 
+              data-driven applications that combine clean design, strong functionality, and 
+              meaningful insights.
             </p>
+
             <p className="text-gray-300/90">
-              When I'm not coding, I enjoy working on personal projects, contributing to open-source 
-              initiatives, and connecting with fellow developers in the tech community.
+              Beyond formal learning, I actively work on personal and collaborative projects, 
+              explore emerging technologies, and engage with the developer community to 
+              continuously refine my craft.
             </p>
           </div>
 
@@ -44,6 +48,18 @@ function About() {
                 <div>
                   <h4 className="font-bold text-lg mb-1">Bachelor of Commerce In Information Systems</h4>
                   <p className="text-gray-400">University of Fort Hare</p>
+                  <span className="inline-block mt-2 px-3 py-1 bg-green-500/20 text-green-400 text-xs font-semibold rounded-full border border-green-500/30">
+                    Completed
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className=" py-4 space-y-4">
+              <div className="flex items-start gap-4 p-4 bg-gray-900/50 rounded-xl border border-gray-700/50 hover:border-green-500/50 transition-colors">
+                <div className="w-3 h-3 bg-green-500 rounded-full mt-2 shadow-lg shadow-green-500/50"></div>
+                <div>
+                  <h4 className="font-bold text-lg mb-1">Data Analytics</h4>
+                  <p className="text-gray-400">EBL Institute</p>
                   <span className="inline-block mt-2 px-3 py-1 bg-green-500/20 text-green-400 text-xs font-semibold rounded-full border border-green-500/30">
                     Completed
                   </span>

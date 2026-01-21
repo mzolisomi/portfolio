@@ -48,11 +48,11 @@ function Home() {
           </h1>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-300/90">
             Web Developer &{' '}
-            <span className="text-green-400">Student</span>
+            <span className="text-green-400">Data Analyst</span>
           </h2>
-          <p className="text-base md:text-lg lg:text-xl text-gray-400 leading-relaxed max-w-xl mx-auto md:mx-0">
-            I'm a passionate student at the University of Fort Hare, pursuing a BCom Information Systems degree. 
-            I love creating beautiful, functional web applications that make a difference.
+          <p className="text-base  md:text-lg lg:text-xl text-gray-400 leading-relaxed max-w-xl mx-auto md:mx-0">
+          I am a passionate BCom Information Systems graduand at the University of Fort Hare and a Data Analytics graduate from EBL Institute.
+           I enjoy designing elegant, functional web applications and leveraging data to uncover meaningful insights that drive informed decision-making.
           </p>
         </div>
 
@@ -69,14 +69,19 @@ function Home() {
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-green-600 to-green-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </a>
+
+          <a href="/files/mzoli_somi_resume.pdf" className="px-8 py-4 border-2 border-green-500 text-green-400 rounded-xl font-semibold hover:bg-green-500 hover:text-white hover:border-green-400 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-500/30"  download>
+            Download CV
+          </a>
           <a 
             href="#contact" 
             onClick={(e) => handleNavClick(e, 'contact')}
             className="px-8 py-4 border-2 border-green-500 text-green-400 rounded-xl font-semibold hover:bg-green-500 hover:text-white hover:border-green-400 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-500/30"
-          >
+            >
             Get In Touch
           </a>
         </div>
+
 
         {/* Social Links */}
         <div className="flex gap-4 justify-center md:justify-start mt-4">

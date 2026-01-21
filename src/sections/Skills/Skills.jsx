@@ -9,13 +9,13 @@ export default function Skills() {
     },
     { 
       name: "JavaScript", 
-      src: "/images/javascript.jpg", 
+      src: "/images/java-script.png", 
       alt: "JavaScript"
     },
     { 
-      name: "MySQL", 
-      src: "/images/MySql.png.png", 
-      alt: "MySQL"
+      name: "SQL", 
+      src: "/images/sql.png", 
+      alt: "SQL"
     },
     { 
       name: "Python", 
