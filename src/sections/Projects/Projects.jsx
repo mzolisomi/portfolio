@@ -2,18 +2,18 @@ export default function Projects() {
     const projects = [
         {
             name: "Unicentral-SA",
-            src:"/src/assets/images/unicentral-sa.png",
+            src:"/images/unicentral-sa.png",
             alt: "Unicentral-SA logo",
             link: "https://github.com/mzolisomi/UniCentral-SA",
-            tools: ["./src/assets/images/c-sharp.png", "./src/assets/images/javascript.jpg", "./src/assets/images/MySql.png.png"],
+            tools: ["./images/c-sharp.png", "./images/javascript.jpg", "./images/MySql.png.png"],
             description:"UniCentral-SA is a South African digital central applications office designed to help students from marginalised communities to apply to a variety of universities using one standardised fee."
         },
         {
             name: "CraftSphere",
-            src: "/src/assets/images/craftsphere.png",
+            src: "/images/craftsphere.png",
             alt: "CraftSphere logo",
             link: "https://github.com/LettersBlue/CraftSphere2.0",
-            tools: ["./src/assets/images/c-sharp.png", "./src/assets/images/javascript.jpg", "./src/assets/images/MySql.png.png"],
+            tools: ["./images/c-sharp.png", "./images/javascript.jpg", "./images/MySql.png.png"],
             description: "CraftSphere is a digital marketplace for South African artisans."
         }
     ];
