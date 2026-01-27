@@ -21,6 +21,11 @@ export default function Skills() {
       name: "Python", 
       src: "/images/python.png", 
       alt: "Python"
+    },
+    {
+      name: "React", 
+      src: "/images/react_js.png", 
+      alt: "React"
     }
   ];
 
@@ -38,7 +43,7 @@ export default function Skills() {
           <p className="text-gray-400 mt-6 text-lg md:text-xl">Technologies and tools I work with</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8 lg:gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 lg:gap-10 mb-12">
           {skills.map((skill, index) => (
             <div
               key={index}

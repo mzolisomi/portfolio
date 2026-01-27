@@ -18,20 +18,20 @@ function About() {
           <div className="space-y-6 text-base md:text-lg text-gray-300 leading-relaxed bg-gray-900/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-800/50 shadow-xl">
             <p className="text-gray-300/90">
               Hello! I'm <span className="text-green-400 font-semibold">Mzoli Somi</span>, 
-              a BCom Information Systems graduand at the University of Fort Hare and a 
-              Data Analytics graduate from EBL Institute, with a growing focus on web development.
+              a BCom Information Systems graduand and a Data Analytics graduate from EBL Institute, 
+              driven by a passion for building intelligent, scalable, and user-centered digital solutions.
             </p>
 
             <p className="text-gray-300/90">
-              I am currently strengthening my skills in modern web technologies while building 
-              data-driven applications that combine clean design, strong functionality, and 
-              meaningful insights.
+              I specialize in crafting modern web applications and data-driven systems that merge 
+              clean architecture, intuitive design, and analytical thinking to solve real-world problems 
+              and support informed decision-making.
             </p>
 
             <p className="text-gray-300/90">
-              Beyond formal learning, I actively work on personal and collaborative projects, 
-              explore emerging technologies, and engage with the developer community to 
-              continuously refine my craft.
+              Through continuous learning, hands-on projects, and collaboration, I actively refine my 
+              technical skills while exploring emerging technologies, ensuring that every solution I 
+              build delivers both functional excellence and meaningful impact.
             </p>
           </div>
 
