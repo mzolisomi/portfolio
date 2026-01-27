@@ -51,8 +51,9 @@ function Home() {
             <span className="text-green-400">Data Analyst</span>
           </h2>
           <p className="text-base  md:text-lg lg:text-xl text-gray-400 leading-relaxed max-w-xl mx-auto md:mx-0">
-          I am a passionate BCom Information Systems graduand at the University of Fort Hare and a Data Analytics graduate from EBL Institute.
-           I enjoy designing elegant, functional web applications and leveraging data to uncover meaningful insights that drive informed decision-making.
+            I am a BCom Information Systems graduand and a Data Analytics graduate from EBL Institute,
+           with a strong interest in building elegant, functional web applications and using data
+            to generate actionable insights for informed decision-making.
           </p>
         </div>
 
