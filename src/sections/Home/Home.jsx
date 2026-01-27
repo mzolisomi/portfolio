@@ -23,7 +23,7 @@ function Home() {
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-green-400 via-green-500 to-purple-600 p-[3px] shadow-2xl shadow-green-500/50 animate-gradient">
             <div className="rounded-full overflow-hidden w-full h-full bg-black">
               <img 
-                src="/images/Profile.jpg" 
+                src="/src/assets/images/Profile.jpg" 
                 alt="Mzoli Somi" 
                 className="w-full h-full object-cover"
               />

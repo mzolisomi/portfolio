@@ -4,22 +4,22 @@ export default function Skills() {
   const skills = [
     { 
       name: "C#", 
-      src: "/images/c-sharp.png", 
+      src: "/src/assets/images/c-sharp.png", 
       alt: "C#"
     },
     { 
       name: "JavaScript", 
-      src: "/images/java-script.png", 
+      src: "/src/assets/images/java-script.png", 
       alt: "JavaScript"
     },
     { 
       name: "SQL", 
-      src: "/images/sql.png", 
+      src: "/src/assets/images/sql.png", 
       alt: "SQL"
     },
     { 
       name: "Python", 
-      src: "/images/python.png", 
+      src: "/src/assets/images/python.png", 
       alt: "Python"
     }
   ];
