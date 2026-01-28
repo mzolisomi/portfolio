@@ -54,6 +54,7 @@ export default function Skills() {
               <div className="relative w-28 h-28 md:w-36 md:h-36 mb-5 flex items-center justify-center">
                 <div className="absolute inset-0 bg-green-500/20 rounded-full blur-xl group-hover:bg-green-500/40 transition-all duration-500"></div>
                 <img
+                  loading="lazy"
                   src={skill.src}
                   alt={skill.alt}
                   className="relative w-full h-full object-contain filter group-hover:brightness-125 group-hover:scale-110 transition-all duration-500 drop-shadow-lg"
