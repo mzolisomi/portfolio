@@ -72,7 +72,7 @@ export default function Skills() {
         {/* Additional Skills Info */}
         <div className="mt-12 text-center bg-gray-900/50 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-gray-800/50">
           <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
-            Continuously learning and expanding my skill set to stay current with the latest technologies
+            Continuously learning and expanding my skills set to stay current with the latest technologies
           </p>
         </div>
       </div>
